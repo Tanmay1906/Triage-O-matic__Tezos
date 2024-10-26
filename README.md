@@ -1,14 +1,8 @@
 # Triage-O-Matic using Blockchain
 
 ## Overview
+Triage-O-Matic is a decentralized, blockchain-based cyber triage tool with advanced AI/ML capabilities for automated analysis and anomaly detection. The tool is designed to store **evidence hashes**, **analysis results**, and **case metadata securely** utilizing a consensus mechanism like Proof of Authority, suitable for high-security environments. It includes a triage tool that offers a user-friendly interface for investigators, allowing them to interact with the blockchain to store and retrieve evidence efficiently.
 
-A decentralized, blockchainbased cyber triage tool with advanced AI/ML capabilities for automated analysis and a nomaly detection.
-The tool is designed to store 
-**1. evidence hashes,**
-**2. analysis results,**
-**3. case metadata securely**
-utilizing a consensus mechanism like Proof of Authority,suitable for high-security environments.
-It includes a triage tool that offers a userfriendly interface for investigators, allowing them to interact with the blockchain to store and retrieve evidence efficiently.
 
 ## Prerequisites
 
