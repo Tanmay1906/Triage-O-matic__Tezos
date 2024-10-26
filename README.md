@@ -4,9 +4,9 @@
 
 A decentralized, blockchainbased cyber triage tool with advanced AI/ML capabilities for automated analysis and a nomaly detection.
 The tool is designed to store 
-  **1. evidence hashes,**
-  **2. analysis results,**
-  **3. case metadata securely**
+**1. evidence hashes,**
+**2. analysis results,**
+**3. case metadata securely**
 utilizing a consensus mechanism like Proof of Authority,suitable for high-security environments.
 It includes a triage tool that offers a userfriendly interface for investigators, allowing them to interact with the blockchain to store and retrieve evidence efficiently.
 
