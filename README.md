@@ -29,7 +29,7 @@ git clone https://github.com/Tanmay1906/Triage-O-matic__Tezos.git
 cd Triage-O-matic__Tezos
 ```
 
-1. ## Create Virtual Environment:
+**1. Create Virtual Environment:**
 ```bash
 #in WSL
 python3 -m venv venv
