@@ -8,7 +8,7 @@ Triage-O-Matic is a project that leverages blockchain technology to create a sec
 
 - Python 3.x
 - Flask
-- Truffle
+- WSL (Ubbantu or Linux)
 - Tezos client
 - Node.js
 
@@ -29,4 +29,20 @@ git clone https://github.com/Tanmay1906/Triage-O-matic__Tezos.git
 cd Triage-O-matic__Tezos
 ```
 
-1. # Create Virtual Environment:
+1. ## Create Virtual Environment:
+```bash
+#in WSL
+python3 -m venv venv
+source env/bin/activate  
+```
+2. ## Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. ## Run the Flask application:
+```bash
+python3 app.py
+```
+
+## Deploying Smart Contracts on Tezos
+
