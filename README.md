@@ -60,7 +60,8 @@ tezos-client originate contract contract.tz transferring 0 from <your_account> r
 ```
 
 ## For Demo Video and Image Link:
-For a detailed demo and visual walkthrough, check out the following links:(https://drive.google.com/drive/folders/16inLdIA9e-ZGIiUaE-xAgmu5AsxNpH5w?usp=drive_link)
+For a detailed demo and visual walkthrough, check out the following links:
+https://drive.google.com/drive/folders/16inLdIA9e-ZGIiUaE-xAgmu5AsxNpH5w?usp=drive_link
 
 
 ## Key Features:
