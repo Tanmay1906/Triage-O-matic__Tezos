@@ -1,0 +1,62 @@
+2024-08-31 05:52:08,826 - INFO - 127.0.0.1 - - [31/Aug/2024 05:52:08] "[31m[1mGET /analyze_evidence/Ayush.jpg?index=1 HTTP/1.1[0m" 405 -
+2024-08-31 05:53:10,189 - INFO -  * Detected change in 'C:\\Users\\tanma\\OneDrive\\Desktop\\New folder\\blockchain_interface\\app.py', reloading
+2024-08-31 05:53:10,432 - INFO -  * Restarting with stat
+2024-08-31 05:53:11,916 - DEBUG - Making request HTTP. URI: http://127.0.0.1:7545, Method: web3_clientVersion
+2024-08-31 05:53:11,916 - DEBUG - Session cached: http://127.0.0.1:7545, <requests.sessions.Session object at 0x0000023B383D6000>
+2024-08-31 05:53:11,916 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7545
+2024-08-31 05:53:11,916 - DEBUG - http://127.0.0.1:7545 "POST / HTTP/11" 200 88
+2024-08-31 05:53:11,916 - DEBUG - Getting response HTTP. URI: http://127.0.0.1:7545, Method: web3_clientVersion, Response: {'id': 0, 'jsonrpc': '2.0', 'result': 'Ganache/v7.7.3/EthereumJS TestRPC/v7.7.3/ethereum-js'}
+2024-08-31 05:53:11,949 - WARNING -  * Debugger is active!
+2024-08-31 05:53:11,949 - INFO -  * Debugger PIN: 915-987-434
+2024-08-31 05:53:43,789 - INFO - 127.0.0.1 - - [31/Aug/2024 05:53:43] "GET /analyze_evidence/Ayush.jpg?index=1 HTTP/1.1" 200 -
+2024-08-31 05:57:26,666 - INFO -  * Detected change in 'C:\\Users\\tanma\\OneDrive\\Desktop\\New folder\\blockchain_interface\\app.py', reloading
+2024-08-31 05:57:26,896 - INFO -  * Restarting with stat
+2024-08-31 05:57:28,435 - DEBUG - Making request HTTP. URI: http://127.0.0.1:7545, Method: web3_clientVersion
+2024-08-31 05:57:28,435 - DEBUG - Session cached: http://127.0.0.1:7545, <requests.sessions.Session object at 0x000001C417066630>
+2024-08-31 05:57:28,435 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7545
+2024-08-31 05:57:28,440 - DEBUG - http://127.0.0.1:7545 "POST / HTTP/11" 200 88
+2024-08-31 05:57:28,440 - DEBUG - Getting response HTTP. URI: http://127.0.0.1:7545, Method: web3_clientVersion, Response: {'id': 0, 'jsonrpc': '2.0', 'result': 'Ganache/v7.7.3/EthereumJS TestRPC/v7.7.3/ethereum-js'}
+2024-08-31 05:57:28,472 - WARNING -  * Debugger is active!
+2024-08-31 05:57:28,475 - INFO -  * Debugger PIN: 915-987-434
+2024-08-31 05:57:35,366 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:35] "GET /analyze_evidence/Ayush.jpg?index=1 HTTP/1.1" 200 -
+2024-08-31 05:57:35,455 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:35] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+2024-08-31 05:57:35,471 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:35] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-08-31 05:57:35,471 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:35] "[36mGET /static/user-icon.png HTTP/1.1[0m" 304 -
+2024-08-31 05:57:35,471 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:35] "GET /static/analyze.css HTTP/1.1" 200 -
+2024-08-31 05:57:35,505 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:35] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+2024-08-31 05:57:57,410 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:57] "[32mGET /evidence HTTP/1.1[0m" 302 -
+2024-08-31 05:57:57,414 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:57] "GET /login HTTP/1.1" 200 -
+2024-08-31 05:57:57,438 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:57] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-08-31 05:57:57,438 - INFO - 127.0.0.1 - - [31/Aug/2024 05:57:57] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,752 - INFO - User admin logged in successfully
+2024-08-31 05:58:01,752 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-08-31 05:58:01,773 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "GET /dashboard HTTP/1.1" 200 -
+2024-08-31 05:58:01,809 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,809 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/dashboard.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,809 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,809 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/user-icon.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,833 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,833 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/js/verification.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,833 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,833 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/js/video_call.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:01,833 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:01] "[36mGET /static/js/document_sharing.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:03,618 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:03] "GET /evidence HTTP/1.1" 200 -
+2024-08-31 05:58:03,650 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:03] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:03,650 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:03] "[36mGET /static/evidence.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:03,650 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:03] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:03,656 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:03] "[36mGET /static/user-icon.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:03,676 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:03] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:15,309 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:15] "GET /analyze_evidence/Bhuvan_Verma_CV_01714811921_AIDS_MAIT_9560672201.pdf?index=2 HTTP/1.1" 200 -
+2024-08-31 05:58:15,346 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:15] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:15,346 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:15] "[36mGET /static/analyze.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:15,346 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:15] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:15,352 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:15] "[36mGET /static/user-icon.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:15,373 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:15] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+2024-08-31 05:58:23,859 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:23] "GET /evidence HTTP/1.1" 200 -
+2024-08-31 05:58:23,885 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:23] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:23,885 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:23] "[36mGET /static/evidence.css HTTP/1.1[0m" 304 -
+2024-08-31 05:58:23,885 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:23] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:23,885 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:23] "[36mGET /static/user-icon.png HTTP/1.1[0m" 304 -
+2024-08-31 05:58:23,909 - INFO - 127.0.0.1 - - [31/Aug/2024 05:58:23] "[36mGET /static/js/base.js HTTP/1.1[0m" 304 -
+2024-08-31 06:00:44,177 - INFO -  * Detected change in 'C:\\Users\\tanma\\OneDrive\\Desktop\\New folder\\blockchain_interface\\app.py', reloading
+2024-08-31 06:00:44,540 - INFO -  * Restarting with stat
