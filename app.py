@@ -67,7 +67,7 @@ def test_tezos_node():
     try:
         response = requests.get('https://rpc.ghostnet.teztnets.com/chains/main/blocks/head')
         if response.status_code == 200:
-            print(f'Successfully connected: {response.json()["hash"]}')
+            print(f'Tezos Successfully connected: {response.json()["hash"]}')
         else:
             print(f'Failed to connect: {response.status_code}')
     except Exception as e:
