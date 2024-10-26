@@ -2,7 +2,13 @@
 
 ## Overview
 
-Triage-O-Matic is a project that leverages blockchain technology to create a secure, transparent, and tamper-proof evidence management system. It allows users to upload, analyze, and manage evidence files, ensuring the integrity and chain of custody of the evidence.
+A decentralized, blockchainbased cyber triage tool with advanced AI/ML capabilities for automated analysis and a nomaly detection.
+The tool is designed to store 
+  **1. evidence hashes,**
+  **2. analysis results,**
+  **3. case metadata securely**
+utilizing a consensus mechanism like Proof of Authority,suitable for high-security environments.
+It includes a triage tool that offers a userfriendly interface for investigators, allowing them to interact with the blockchain to store and retrieve evidence efficiently.
 
 ## Prerequisites
 
@@ -35,14 +41,39 @@ cd Triage-O-matic__Tezos
 python3 -m venv venv
 source env/bin/activate  
 ```
-2. ## Install Python dependencies:
+**2. Install Python dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
-3. ## Run the Flask application:
+**3. Run the Flask application:**
 ```bash
 python3 app.py
 ```
 
 ## Deploying Smart Contracts on Tezos
+**1. Install Tezos client:**
+```bash
+sudo apt-get update
+sudo apt-get install -y tezos
+```
+**2. Compile the smart contracts using LIGO:**
+```bash
+ligo compile contract <your_contract.mligo>
+```
+**3. Deploy the smart contracts using Tezos client:**
+```bash
+tezos-client originate contract contract.tz transferring 0 from <your_account> running '<your_compiled_contract.tz>'
+```
+
+## For Demo Video and Image Link:
+For a detailed demo and visual walkthrough, check out the following links:
+[Link Text](URL)
+
+
+## Key Features:
+1. Secure evidence upload and storage
+2. Comprehensive evidence analysis
+3. Detailed chain of custody management
+4. Evidence Management and Incident Overview
+
 
