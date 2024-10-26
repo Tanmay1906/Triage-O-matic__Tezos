@@ -83,6 +83,7 @@
         </form>
 
         <form action="{{ url_for('reset_coc') }}" method="post">
+          <button type="submit">Reset Chain of Custody</button>
         </form>
 
         <table>
@@ -195,6 +196,9 @@
             <input type="file" id="docUpload" name="file">
             <button type="submit" id="uploadButton">Upload Document</button>
         </form>
+        <form action="{{ url_for('reset_data') }}" method="post" enctype="multipart/form-data">
+          <button type="submit" id="uploadButton">Reset</button>
+      </form>
       </div>
     </div>
 

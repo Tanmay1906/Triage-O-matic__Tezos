@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triage-O-matic</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='chatbot.css') }}">
     <!-- Include Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -70,7 +71,77 @@
             <a href="#">Facebook</a>
         </div>
     </footer>
-    
+
+    <!-- Chat Button -->
+    <div id="chatButton" onclick="toggleChat()">
+        Chat
+    </div>
+
+    <!-- Chat Container -->
+    <div class="chat-container-unique" id="triageChatContainer">
+        <div class="chat-header-unique">
+            CrimeBot
+            <div class="theme-toggle-unique" id="themeToggleButton">Toggle Theme</div>
+        </div>
+        <div class="chat-messages-unique" id="triageChatMessages">
+            <div class="message bot-message">Hi! How can I help you today?</div>
+        </div>
+        <div class="chat-input-unique">
+            <input type="text" id="triageChatInput" placeholder="Type a message..." onkeydown="handleKeyDown(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
     <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+    <script>
+        // Toggle Chat Window
+        const chatButton = document.getElementById('chatButton');
+        const chatContainer = document.getElementById('triageChatContainer');
+        const chatMessages = document.getElementById('triageChatMessages');
+        let isChatOpen = false;
+
+        function toggleChat() {
+            isChatOpen = !isChatOpen;
+            chatContainer.style.display = isChatOpen ? 'flex' : 'none';
+            if (isChatOpen) {
+                chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
+            }
+        }
+
+        function handleKeyDown(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('triageChatInput');
+            const message = input.value.trim();
+            if (message) {
+                appendMessage('user', message);
+                input.value = '';
+                // Simulate bot response
+                setTimeout(() => {
+                    appendMessage('bot', "This is a simulated response.");
+                }, 1000);
+            }
+        }
+
+        function appendMessage(sender, message) {
+            const messageElement = document.createElement('div');
+            messageElement.className = `message ${sender}-message`;
+            messageElement.textContent = message;
+            chatMessages.appendChild(messageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the bottom
+        }
+
+        // Toggle Dark/Light Theme
+        const themeToggle = document.getElementById('themeToggleButton');
+        themeToggle.onclick = function() {
+            document.body.classList.toggle('dark-theme');
+            const newText = document.body.classList.contains('dark-theme') ? 'Light Theme' : 'Dark Theme';
+            themeToggle.textContent = newText;
+        }
+    </script>
 </body>
 </html>
